@@ -1,0 +1,87 @@
+@media (max-width: 1200px) {
+    .recording__container {
+        width: 710px; 
+        }
+
+    .heiding {
+        font-size: 45px;
+        margin-bottom: 76px;
+        margin-top: 50px;
+        }
+    .left-section {
+        width: 100%;
+        min-height: 540px;
+        }
+
+    .right-section {
+        width: 100%;
+        padding: 69px 123px 78px;
+        }
+    .right-section__heiding {
+        text-align: center;
+        }
+    .right-section__info-list {
+        justify-content: space-evenly;
+        }
+    .form-reg__checkbox {
+        order: 0;
+        margin-bottom: 28px;
+        }
+    }
+
+
+@media (max-width: 740px) {
+    .recording__container {
+        width: 320px;
+        }
+    .heiding {
+        font-size: 38px;
+        margin-top: 56px;
+        margin-bottom: 81px;
+        }
+    .left-section {
+        min-height: 400px;
+        }
+    .left-container__list-item:nth-child(2) {
+        font-size: 18px;
+        }
+    .left-container__list-item:last-child {
+        font-size: 15px;
+        }
+    .full-price {
+        font-size: 36px;
+        }
+    .installment {
+        font-size: 56px;
+        }
+    .special-sale {
+        font-size: 40px;
+        }
+
+    .left-container__sale-block {
+        left: 32%;
+        top: -50px;
+        }
+fv
+    .right-section {
+        padding: 40px 25px 55px;
+        }
+    .right-section__heiding {
+        font-size: 30px;
+        margin-top: 0;
+        margin-bottom: 20px;
+        text-align: left;
+        }
+    .form-reg__checkbox {
+        margin-bottom: 46px;
+        }
+    .right-section__info-list {
+        justify-content: space-between;
+        }
+    .info-list_item:not(:last-child) {
+        margin-bottom: 10px;
+        }
+    .right-section__advantages-list {
+        margin-bottom: 30px;
+        }   
+    }

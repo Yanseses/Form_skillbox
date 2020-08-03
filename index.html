@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="font/Roboto-Regular.woff2" as="font">
+    <link rel="preload" href="font/RobotoSlab-Regular.woff2" as="font">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/adaptiv.css">
+    <title>
+        Стоимость обучения
+    </title>
+</head>
+<body>
+    <main class="main">
+        <h1 class="heiding">Стоимость обучения</h1>
+
+        <div class="recording__container">
+            <section class="left-section">
+                <h2 class="visually-hidden">
+                    Условия курса
+                </h2>
+                <div class="left-container__sale-block">
+                    <b class="sale-block_sale">скидка <span class="sale-block_big-price">40%</span></b> первым 20
+                </div>
+
+                <ul class="left-container__list">
+                    <li class="left-container__list-item">
+                        Полная стоимость курса
+                        <span class="price full-price">50 000 &#8381;</span>
+                    </li>
+                    <li class="left-container__list-item">
+                        <span class="price installment">2 900&#8381;</span>
+                        Рассрочка без первого взноса
+                    </li>
+                    <li class="left-container__list-item">
+                        <span class="price special-sale">29 000&#8381;</span>
+                        Для первых 20-ти
+                    </li>
+                </ul>
+            </section>
+
+            <section class="right-section">
+                <h2 class="right-section__heiding">
+                    Запишитесь на&nbsp;курс
+                </h2>
+
+                <ul class="right-section__advantages-list">
+                    <li class="advantages-list_item">
+                        <span class="advantages_text">Телефон</span>
+                    </li>
+                    <li class="advantages-list_item">
+                        <span class="advantages_text">Телефон</span>
+                    </li>
+                    <li class="advantages-list_item">
+                        <span class="advantages_text">Телефон</span>
+                    </li>
+                    <li class="advantages-list_item">
+                        <span class="advantages_text">Телефон</span>
+                    </li>
+                    <li class="advantages-list_item">
+                        <span class="advantages_text">Телефон</span>
+                    </li>
+                </ul>
+
+                <ul class="right-section__info-list">
+                    <li class="info-list_item">
+                        Старт курса:
+                        <b class="blue-text">7 сентября</b>
+                    </li>
+                    <li class="info-list_item">
+                        Осталось:
+                        <b class="blue-text">19 мест</b>
+                    </li>
+                </ul>
+
+                <form method="POST" enctype="multipart/form-data" action="" class="form-reg">
+                    <input type="text" name="name" placeholder="Имя">
+                    <input type="text" name="phone" placeholder="Телефон">
+                    <input type="text" name="email" placeholder="Email">
+                    <label for="personal" class="form-reg__checkbox">
+                        <input type="checkbox" name="check-personal" id="personal" checked>
+                        Я согласен с условиями обработки <a href="" class="form-reg__link">персональных&nbsp;данных</a></label>
+                    <button class="form_submit">Записаться</button>
+                </form>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
