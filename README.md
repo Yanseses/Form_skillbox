@@ -1,3 +1,3 @@
 # Skillbox Form
 
-lite form for SkillBox. Preview: https://yanseses.github.io/form_skillbox/
+lite form for SkillBox. Preview: https://yanseses.github.io/Form_skillbox/
